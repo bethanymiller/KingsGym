@@ -1,0 +1,503 @@
+#main-navigation,
+#main-navigation img {
+    -webkit-transition: width .3s ease, height .3s ease;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    height: 100px;
+    z-index: 99;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.sticky-nav img {
+    width: 100px;
+}
+
+.home-banner{
+    padding: 18em 0 !important;
+    margin: 2em 0 0 0 !important;
+}
+.standard-banner {
+    background-color: #CCE8F4;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat;
+    text-align: center;
+    left: 0;
+}
+
+.physical-therapy-banner {
+    background-image: url("/images/therapy/physical-therapy-3.jpg");
+    background-position: center center;
+    padding: 4em 0 !important;
+}
+
+.self-defense-banner {
+    background-image: url("/images/services/self-defense-5.jpg");
+    background-position: center center;
+}
+
+.frank-king-banner {
+    background-image: url("/images/frank-smiling-client-cropped.jpg");
+    background-position: center center;
+}
+
+.ed-king-banner {
+    background-image: url("/images/ed-smiling-background-weights-wide.jpg");
+    background-position: top center;
+}
+
+.contact-us-banner {
+    background-image: url("/images/frank-ed.jpg");
+    background-position: top center;
+}
+
+.boxing-schedule-banner {
+    background-image: url("/images/boxing/boxing-schedule-banner.jpg");
+    background-position: center center;
+}
+
+.membership-banner {
+    background-image: url("/images/treadmills.jpg");
+    background-position: center center;
+}
+
+.awards-banner {
+    background-image: url("/images/floor-layout-1.jpg");
+    background-position: center center;
+}
+
+.equipment-sales-banner {
+    background-image: url("/images/equipment-sales-banner.jpg");
+    background-position: center center;
+}
+
+.pro-shop-banner {
+    background-image: url("/images/services/pro-shop-6.jpg");
+    background-position: center center;
+}
+
+.kickboxing-banner {
+    background-image: url("/images/kick-boxing/kick-boxing-4.jpg");
+    background-position: center center;
+}
+
+.trainers-banner {
+    background-image: url("/images/trainers/training-banner.jpg");
+    background-position: center center;
+}
+
+.karate-banner {
+    background-image: url("/images/services/karate-banner.jpg");
+    background-position: top center;
+}
+
+.nutritional-counseling-banner {
+    background-image: url("/images/nutritional-counseling-banner.jpg");
+    background-position: center center;
+}
+
+.boxing-trainers-banner {
+    background-image: url("/images/boxing/trainers-boxing.jpg");
+    background-position: top center;
+}
+
+.boxing-competitive-banner {
+    background-image: url("/images/boxing/comp-boxing-banner.jpg");
+    background-position: center center;
+}
+
+.boxing-youth-banner {
+    background-image: url("/images/boxing/youth-box-3.jpg");
+    background-position: center center;
+}
+
+.boxing-group-banner {
+    background-image: url("/images/boxing/boxing-group-banner.jpg");
+    background-position: center center;
+}
+
+.boxing-kick-karate-banner {
+    background-image: url("/images/boxing/kick-boxing-banner.jpg");
+    background-position: center center;
+}
+
+#page-title h2 {
+    background-color: black;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.content-img-paragraph-kick-boxing {
+    height: auto;
+    width: auto;
+    max-width: 85%;
+    padding-left: 15px;
+}
+
+.content-img-paragraph {
+    height: auto;
+    width: auto;
+    max-width: 65%;
+}
+
+.img-center-par {
+    text-align: center;
+}
+
+.fixed-text-home {
+    height: 250px;
+}
+
+.fixed-text-services-home {
+    height: 0px;
+}
+
+.fixed-text-boxing-home {
+    height: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+.featured-award {
+    width: 70%;
+    margin: auto !important;
+}
+
+.featured-award>* {
+    width: 100%;
+}
+
+ul.font-icon-list li:before {
+    font-family: "fontello";
+    line-height: 1em;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+
+ul.checklist li:before {
+    content: '\e800';
+}
+
+ul.award li:before {
+    content: '\e801';
+}
+
+.align-c {
+    text-align: center;
+}
+
+.align-r {
+    text-align: right;
+}
+
+.align-l {
+    text-align: left;
+}
+
+.line {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.line:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.line .col {
+    float: left;
+    position: relative;
+}
+
+.margin-l1 {
+    margin-left: 1em !important;
+}
+
+.pl1 {
+    padding-left: 1em;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt2 {
+    margin-top: 1.5em;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.mb1 {
+    margin-bottom: 1em !important;
+}
+
+.home-subheader {
+    position: relative;
+    top: -1.45em;
+}
+
+.font-larger {
+    font-size: 1.1em;
+}
+
+.font-small {
+    font-size: 1em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+.line .col.m1 {
+    width: 8.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m3 {
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m4 {
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m5 {
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m6 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m7 {
+    width: 58.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m8 {
+    width: 66.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m9 {
+    width: 75%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m10 {
+    width: 83.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m11 {
+    width: 91.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.line .col.m12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+@media screen and (min-width: 737px) {
+    .line .col.t1 {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t2 {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t4 {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t5 {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t7 {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t8 {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t9 {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t10 {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t11 {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.t12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .line .col.d1 {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d2 {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d4 {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d5 {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d7 {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d8 {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d9 {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d10 {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d11 {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .line .col.d12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}

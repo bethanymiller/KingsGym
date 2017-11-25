@@ -1,0 +1,16 @@
+.class-schedule {
+    padding-left: 15px;
+}
+
+.content-img-matt {
+    height: auto;
+    width: auto;
+    max-width: 45%;
+    padding-right: 15px;
+}
+
+.content-img-training {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
