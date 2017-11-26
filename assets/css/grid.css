@@ -1,27 +1,25 @@
-#main-navigation,
-#main-navigation img {
-    -webkit-transition: width .3s ease, height .3s ease;
+#sign-up-section {
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
 
 .sticky-nav {
     position: fixed;
     top: 0;
     background: #ffffff;
-    height: 100px;
     z-index: 99;
     width: 100%;
     border-bottom: 1px solid #ccc;
-    padding-top: 10px;
+    max-height: 200px;
+    padding: 1em 0;
 }
 
 .sticky-nav img {
-    width: 100px;
+    width: 150px;
 }
 
-.home-banner{
-    padding: 18em 0 !important;
-    margin: 2em 0 0 0 !important;
-}
 .standard-banner {
     background-color: #CCE8F4;
     background-size: 100% auto !important;

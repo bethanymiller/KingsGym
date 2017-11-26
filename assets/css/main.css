@@ -1661,8 +1661,6 @@
 		background-position: center center;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
-		text-align: center;
-		transition: 2s;
 		left: 0;
 	}
 	
@@ -1895,10 +1893,6 @@
 
 		/* Wrappers */
 
-			#header-wrapper {
-				padding: 2em 0 4em 0;
-			}
-
 			#main-wrapper {
 				padding: 4em 0 4em 0;
 			}
@@ -1930,6 +1924,10 @@
 				}
 
 		/* Nav */
+
+			#sign-up-section a.button {
+				padding: .5em;
+			}
 
 			#nav > ul {
 				margin: 0;
@@ -2018,8 +2016,8 @@
 
 			#banner {
 				position: relative;
-				padding: 8em 0;
-				margin: 4em 0 0 0;
+				padding: 15em 0;
+				margin: 2em 0 3em 0;
 			}
 
 			#page-title {
@@ -2143,10 +2141,6 @@
 			}
 
 		/* Wrappers */
-
-			#header-wrapper {
-				padding: 3em 0 3em 0;
-			}
 
 			#main-wrapper {
 				padding: 2.75em 0 2.75em 0;
@@ -2532,6 +2526,20 @@
 				}
 
 		/* Nav */
+
+			.sticky-nav {
+				padding-bottom: 0 !important;
+			}
+
+			#sign-up-section {
+				top: .5em !important;
+				right: .5em !important;
+			}
+
+			#sign-up-section a.button {
+				padding: .5em !important;
+				font-size: inherit !important;
+			}
 
 			#nav {
 				display: none;
