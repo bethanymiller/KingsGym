@@ -3,7 +3,7 @@
 var kings = kings || {};
 
 kings.modals = (function () {
-    var modalImages, modalDialog, modalImage, modalCaption, modalClose, modalBack, modalForward;
+    var modalImages, modalDialog, modalImage, modalCaption, modalClose, modalBack, modalForward, body;
 
     function initialize() {
         modalImages = $("img.popup-image")
@@ -13,6 +13,7 @@ kings.modals = (function () {
         modalClose = $("#modal-close");
         modalBack = $("#modal-back");
         modalForward = $("#modal-forward");
+        body = $("body");
 
         initModals();
     }
@@ -26,10 +27,14 @@ kings.modals = (function () {
 
             setUpBackForwardLinks(originalImage);
 
+            body.addClass("modal-open");
             modalDialog.show();
         });
 
-        modalClose.on("click", function () { modalDialog.hide(); });
+        modalClose.on("click", function () {
+            modalDialog.hide();
+            body.removeClass("modal-open");
+        });
     }
 
     function setUpBackForwardLinks(originalImage) {
