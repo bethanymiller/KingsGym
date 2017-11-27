@@ -1929,6 +1929,10 @@
 				padding: .5em;
 			}
 
+			#nav {
+				margin-bottom: 2em;
+			}
+
 			#nav > ul {
 				margin: 0;
 			}
