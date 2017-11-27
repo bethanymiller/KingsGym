@@ -1657,11 +1657,18 @@
 
 	#banner {
 		background-color: #CCE8F4;
-		background-image: url("../../images/kings-gym-overlook.jpg");
 		background-position: center center;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		left: 0;
+	}
+
+	.banner-home {
+		background-image: url("../../images/kings-gym-overlook.jpg");
+	}
+
+	.banner-boxing {
+		background-image: url("../../images/boxing/boxing-5.jpg");
 	}
 	
 	#page-title {
