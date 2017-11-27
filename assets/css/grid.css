@@ -1,3 +1,8 @@
+.pricing-section {
+    background-image: url("images/bg02.png");
+    border-radius: 5px;
+}
+
 #sign-up-section {
     display: inline-block;
     position: absolute;
