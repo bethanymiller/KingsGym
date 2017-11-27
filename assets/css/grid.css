@@ -233,8 +233,20 @@ ul.award li:before {
     margin-top: 0;
 }
 
+.mt1 {
+    margin-top: 1em;
+}
+
 .mt2 {
     margin-top: 1.5em;
+}
+
+.mt3 {
+    margin-top: 2em;
+}
+
+.mt4 {
+    margin-top: 2.5em;
 }
 
 .mb0 {
