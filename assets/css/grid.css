@@ -33,6 +33,11 @@
     left: 0;
 }
 
+.group-exercises-banner {
+    background-image: url("/images/services/group-exercise-6.jpg");
+    background-position: top center;
+}
+
 .physical-therapy-banner {
     background-image: url("/images/therapy/physical-therapy-3.jpg");
     background-position: center center;
