@@ -25,6 +25,11 @@
     width: 150px;
 }
 
+.h3-link{
+    text-decoration: underline;
+    color: blue;
+}
+
 .standard-banner {
     background-color: #CCE8F4;
     background-size: 100% auto !important;
