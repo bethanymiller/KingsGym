@@ -21,11 +21,17 @@
     padding: 1em 0;
 }
 
+.gallery-youtube-size {
+    width: 360px;
+    height: 240px;
+    display: inline-block !important;
+}
+
 .sticky-nav img {
     width: 150px;
 }
 
-.h3-link{
+.h3-link {
     text-decoration: underline;
     color: blue;
 }
