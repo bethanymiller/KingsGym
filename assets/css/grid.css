@@ -49,6 +49,12 @@
     background-position: top center;
 }
 
+
+.vonda-ward-banner {
+    background-image: url("/images/boxing/trainer-vonda-champ-1.jpg");
+    background-position: center center;
+}
+
 .physical-therapy-banner {
     background-image: url("/images/therapy/physical-therapy-3.jpg");
     background-position: center center;
