@@ -72,14 +72,14 @@
     <loc>http://www.kingsgymohio.com/boxing/karate.html</loc>
     <lastmod>2017-12-03</lastmod>
   </url>
-  <url>
+  <!-- <url>
     <loc>http://www.kingsgymohio.com/boxing/kickboxing.html</loc>
     <lastmod>2017-12-03</lastmod>
-  </url>
-  <url>
+  </url> -->
+  <!-- <url>
     <loc>http://www.kingsgymohio.com/boxing/kickboxing-karate.html</loc>
     <lastmod>2017-12-03</lastmod>
-  </url>
+  </url> -->
   <url>
     <loc>http://www.kingsgymohio.com/boxing/adult.html</loc>
     <lastmod>2017-12-03</lastmod>
@@ -113,10 +113,10 @@
     <loc>http://www.kingsgymohio.com/classes/karate.html</loc>
     <lastmod>2017-12-03</lastmod>
   </url>
-  <url>
+  <!-- <url>
     <loc>http://www.kingsgymohio.com/classes/kickboxing.html</loc>
     <lastmod>2017-12-03</lastmod>
-  </url>
+  </url> -->
   <url>
     <loc>http://www.kingsgymohio.com/classes/self-defense.html</loc>
     <lastmod>2017-12-03</lastmod>
